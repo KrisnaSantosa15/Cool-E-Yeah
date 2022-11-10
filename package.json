@@ -1,0 +1,22 @@
+{
+  "name": "cool-e-yeah",
+  "version": "1.0.0",
+  "description": "aplikasi manajemen tugas dan jadwal perkuliahan",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Krisna Santosa",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.1",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.5.3",
+    "whatsapp-web.js": "github:ReforwardDev/whatsapp-web.js#patch-1"
+  }
+}
